@@ -1609,16 +1609,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MF" "STMicroelectronics"
+			(property "Description" "STM32F303K8, mbed-Enabled Development Nucleo-32 STM32F3 ARM® Cortex®-M4 MCU 32-Bit Embedded Evaluation Board"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1628,7 +1619,7 @@
 					(hide yes)
 				)
 			)
-			(property "DESCRIPTION" "STM32F303K8, mbed-Enabled Development Nucleo-32 STM32F3 ARM® Cortex®-M4 MCU 32-Bit Embedded Evaluation Board"
+			(property "MF" "STMicroelectronics"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2581,12 +2572,6 @@
 		(uuid "3ad862bc-75fc-4e79-93f3-5f064e2200e1")
 	)
 	(junction
-		(at 125.73 120.65)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3d1ea5a1-b4c7-41d0-9b69-952e10bfb568")
-	)
-	(junction
 		(at 222.25 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2605,28 +2590,10 @@
 		(uuid "7e519bcd-e8ec-4019-aa0c-b1e5c4a45651")
 	)
 	(junction
-		(at 125.73 115.57)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "816a845f-096a-43b2-a781-13d09eefdf8b")
-	)
-	(junction
-		(at 195.58 49.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "87af0466-e25c-4c33-8407-4beb45f6b552")
-	)
-	(junction
 		(at 97.79 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "89f0efbf-b749-4108-bc05-576c6dbbad08")
-	)
-	(junction
-		(at 109.22 115.57)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8d8e552e-589f-4b63-9ee4-85c9b979dc73")
 	)
 	(junction
 		(at 147.32 146.05)
@@ -2639,12 +2606,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "98339583-6620-4222-aa18-dfb3c7e0dd82")
-	)
-	(junction
-		(at 125.73 118.11)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9a679028-9d06-4bec-b8ac-1233d834c711")
 	)
 	(junction
 		(at 109.22 118.11)
@@ -2683,10 +2644,10 @@
 		(uuid "d5458382-d387-4b01-88eb-d3fd945dd088")
 	)
 	(junction
-		(at 193.04 41.91)
+		(at 209.55 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "ff27e7dc-38fe-4a93-9562-da9dcecc063b")
+		(uuid "f7f6883f-0f3a-43ba-a60c-807d502fba3f")
 	)
 	(no_connect
 		(at 58.42 52.07)
@@ -2703,10 +2664,6 @@
 	(no_connect
 		(at 58.42 64.77)
 		(uuid "4578b0d1-c7ec-4f0d-ad15-9805121181b4")
-	)
-	(no_connect
-		(at 58.42 124.46)
-		(uuid "4a2cbc1a-0f63-46f3-9a3c-098286656e29")
 	)
 	(no_connect
 		(at 53.34 177.8)
@@ -2768,16 +2725,6 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 57.15) (xy 63.5 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "06cef48d-ac2e-4a90-8ab5-a8e2b1694018")
-	)
-	(wire
-		(pts
 			(xy 111.76 118.11) (xy 109.22 118.11)
 		)
 		(stroke
@@ -2795,16 +2742,6 @@
 			(type default)
 		)
 		(uuid "09e17727-ceec-44d8-8d53-78f8ab7aed0d")
-	)
-	(wire
-		(pts
-			(xy 125.73 120.65) (xy 143.51 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0ffc9a9c-e6bf-4709-956e-e71d009020e9")
 	)
 	(wire
 		(pts
@@ -2828,7 +2765,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 120.65) (xy 125.73 120.65)
+			(xy 124.46 120.65) (xy 143.51 120.65)
 		)
 		(stroke
 			(width 0)
@@ -2858,7 +2795,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 41.91) (xy 210.82 41.91)
+			(xy 204.47 41.91) (xy 209.55 41.91)
 		)
 		(stroke
 			(width 0)
@@ -2968,16 +2905,6 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 118.11) (xy 143.51 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4b70d83f-54da-4dd3-911a-3e9c8812ac40")
-	)
-	(wire
-		(pts
 			(xy 210.82 49.53) (xy 222.25 49.53)
 		)
 		(stroke
@@ -3025,6 +2952,16 @@
 			(type default)
 		)
 		(uuid "51a9a694-a8a5-438a-8644-7d0a04683e6f")
+	)
+	(wire
+		(pts
+			(xy 209.55 41.91) (xy 210.82 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c1ae05b-c738-45a5-b12a-9e568b6d88e4")
 	)
 	(wire
 		(pts
@@ -3138,16 +3075,6 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 49.53) (xy 195.58 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7be1f899-7c89-4ddf-8ae8-b07449a90d1c")
-	)
-	(wire
-		(pts
 			(xy 210.82 41.91) (xy 222.25 41.91)
 		)
 		(stroke
@@ -3188,7 +3115,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 41.91) (xy 196.85 41.91)
+			(xy 190.5 41.91) (xy 196.85 41.91)
 		)
 		(stroke
 			(width 0)
@@ -3288,16 +3215,6 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 41.91) (xy 193.04 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c6926e36-fcdb-45ad-a90a-6cc5282c72e0")
-	)
-	(wire
-		(pts
 			(xy 222.25 49.53) (xy 238.76 49.53)
 		)
 		(stroke
@@ -3338,7 +3255,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 49.53) (xy 210.82 49.53)
+			(xy 190.5 49.53) (xy 210.82 49.53)
 		)
 		(stroke
 			(width 0)
@@ -3428,7 +3345,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 115.57) (xy 125.73 115.57)
+			(xy 124.46 115.57) (xy 143.51 115.57)
 		)
 		(stroke
 			(width 0)
@@ -3445,16 +3362,6 @@
 			(type default)
 		)
 		(uuid "f0f2cfc3-0f3a-44be-8a32-4a6223eb588c")
-	)
-	(wire
-		(pts
-			(xy 125.73 115.57) (xy 143.51 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f229f602-b211-44b0-ada1-4fb7b02da270")
 	)
 	(wire
 		(pts
@@ -3478,7 +3385,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 118.11) (xy 125.73 118.11)
+			(xy 124.46 118.11) (xy 143.51 118.11)
 		)
 		(stroke
 			(width 0)
@@ -3552,6 +3459,17 @@
 		)
 		(uuid "45da7c0e-9865-4376-a40b-34744d488ee5")
 	)
+	(label "BRAKE_A"
+		(at 58.42 124.46 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4ee9e700-0847-40ae-8612-0d20ee552a69")
+	)
 	(label "ENC2_A"
 		(at 58.42 111.76 0)
 		(fields_autoplaced yes)
@@ -3595,17 +3513,6 @@
 			(justify left bottom)
 		)
 		(uuid "637763f7-0d0e-407b-8a81-d6dabef6ba8e")
-	)
-	(label "BRAKE_A"
-		(at 63.5 54.61 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7047255e-d516-4b8d-94aa-4cd1e13aae55")
 	)
 	(label "ENC2_B"
 		(at 137.16 71.12 0)
@@ -4698,16 +4605,16 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 125.73 115.57 270)
+		(at 209.55 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "0156090a-9ded-4960-ab41-5fd67d4f05d2")
+		(uuid "06b81f45-533f-49d6-a16d-a10ce256c989")
 		(property "Reference" "#FLG01"
-			(at 127.635 115.57 0)
+			(at 209.55 40.005 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4716,16 +4623,15 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 129.54 115.5699 90)
+			(at 209.55 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 125.73 115.57 0)
+			(at 209.55 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4734,7 +4640,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 125.73 115.57 0)
+			(at 209.55 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4743,7 +4649,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 125.73 115.57 0)
+			(at 209.55 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4752,10 +4658,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "f6279ec2-2935-462a-943b-f1a28c646430")
+			(uuid "51a3c6a5-8042-4636-b505-9e69e71c87d1")
 		)
 		(instances
-			(project ""
+			(project "motorBoardCan"
 				(path "/41f25736-b213-4f7f-a532-020d43e6a118"
 					(reference "#FLG01")
 					(unit 1)
@@ -5223,7 +5129,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 54.3052 165.1 0)
 			(effects
 				(font
@@ -5408,73 +5314,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 125.73 120.65 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5bd73850-a612-4424-b9e5-65940e9c8473")
-		(property "Reference" "#FLG03"
-			(at 127.635 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 129.54 120.6499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 125.73 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 125.73 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 125.73 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0d7811fd-ecd4-46b0-b4aa-bd5f65f0927b")
-		)
-		(instances
-			(project "motorBoardCan"
-				(path "/41f25736-b213-4f7f-a532-020d43e6a118"
-					(reference "#FLG03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 154.94 83.82 0)
 		(unit 1)
@@ -5539,206 +5378,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 109.22 115.57 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "63e14267-fdee-4989-9231-17bddee629bf")
-		(property "Reference" "#FLG04"
-			(at 107.315 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 105.41 115.5699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 109.22 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 109.22 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 109.22 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "07e5e5ca-f4f6-46a1-80f4-5aa45fabefd3")
-		)
-		(instances
-			(project "motorBoardCan"
-				(path "/41f25736-b213-4f7f-a532-020d43e6a118"
-					(reference "#FLG04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 125.73 118.11 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "747e7628-247f-42be-9e99-9e80fb035b79")
-		(property "Reference" "#FLG02"
-			(at 127.635 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 129.54 118.1099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 125.73 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 125.73 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 125.73 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4131ed01-e958-4859-94f4-88faef6654cc")
-		)
-		(instances
-			(project "motorBoardCan"
-				(path "/41f25736-b213-4f7f-a532-020d43e6a118"
-					(reference "#FLG02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 195.58 49.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7ced240a-c5fa-4c39-b8a4-4fe6782bb45b")
-		(property "Reference" "#FLG011"
-			(at 195.58 47.625 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 195.58 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 195.58 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 195.58 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 195.58 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5532b54f-9ae5-48d1-a685-bab896d6c414")
-		)
-		(instances
-			(project "motorBoardCan"
-				(path "/41f25736-b213-4f7f-a532-020d43e6a118"
-					(reference "#FLG011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 156.21 142.24 0)
 		(unit 1)
@@ -5766,7 +5405,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 157.1752 146.05 0)
 			(effects
 				(font
@@ -6498,72 +6137,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 193.04 41.91 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b40a6f49-f2ef-46ac-8e87-7da8c2ed2124")
-		(property "Reference" "#FLG010"
-			(at 193.04 40.005 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 193.04 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 193.04 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 193.04 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 193.04 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "daf05a6e-1d76-42cf-9b62-d8cc2f608828")
-		)
-		(instances
-			(project "motorBoardCan"
-				(path "/41f25736-b213-4f7f-a532-020d43e6a118"
-					(reference "#FLG010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Interface_CAN_LIN:SN65HVD230")
 		(at 63.5 175.26 0)
 		(unit 1)
@@ -6883,7 +6456,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 136.8552 146.05 0)
 			(effects
 				(font
@@ -7297,94 +6870,94 @@
 			)
 		)
 		(pin "3_5"
-			(uuid "6a0b1b8f-a4e1-40ba-91e6-29d61f4225ec")
+			(uuid "6a0b1b8f-a4e1-40ba-91e6-29d61f4225ed")
 		)
 		(pin "3_7"
-			(uuid "88702bdb-220a-4dc9-a78b-3c497537805a")
+			(uuid "88702bdb-220a-4dc9-a78b-3c497537805b")
 		)
 		(pin "4_5"
-			(uuid "49032086-1c86-4c34-a20e-97902cbec554")
+			(uuid "49032086-1c86-4c34-a20e-97902cbec555")
 		)
 		(pin "4_1"
-			(uuid "7e59f99f-4bd9-4be9-96a0-e771bc8b3e10")
+			(uuid "7e59f99f-4bd9-4be9-96a0-e771bc8b3e11")
 		)
 		(pin "4_8"
-			(uuid "dac09d7a-cf16-4784-a630-11b754f2ddb9")
+			(uuid "dac09d7a-cf16-4784-a630-11b754f2ddba")
 		)
 		(pin "3_8"
-			(uuid "a02ee27f-0ba3-466e-af5c-fb55a7df4d72")
+			(uuid "a02ee27f-0ba3-466e-af5c-fb55a7df4d73")
 		)
 		(pin "3_3"
-			(uuid "2983d0f5-2005-4ad5-9845-c17b51d38365")
+			(uuid "2983d0f5-2005-4ad5-9845-c17b51d38366")
 		)
 		(pin "4_13"
-			(uuid "90b97b3a-b4e2-49dc-938e-b1205cdc4260")
+			(uuid "90b97b3a-b4e2-49dc-938e-b1205cdc4261")
 		)
 		(pin "3_1"
-			(uuid "2f8e7eec-256a-4d66-b46f-9cd3f01ee108")
+			(uuid "2f8e7eec-256a-4d66-b46f-9cd3f01ee109")
 		)
 		(pin "4_15"
-			(uuid "738cfe02-c2ec-4512-b261-9c5105012fa0")
+			(uuid "738cfe02-c2ec-4512-b261-9c5105012fa1")
 		)
 		(pin "4_10"
-			(uuid "252841bd-2235-4b6a-8bcd-9fbea7eccae8")
+			(uuid "252841bd-2235-4b6a-8bcd-9fbea7eccae9")
 		)
 		(pin "4_3"
-			(uuid "d08bfa5b-d6f9-4f61-9bfb-ddcc709b925c")
+			(uuid "d08bfa5b-d6f9-4f61-9bfb-ddcc709b925d")
 		)
 		(pin "4_11"
-			(uuid "57a27393-29e6-4e45-9b81-0afa99951812")
+			(uuid "57a27393-29e6-4e45-9b81-0afa99951813")
 		)
 		(pin "4_9"
-			(uuid "3e50eedd-f02e-402f-9d62-5965d9ec4a9f")
+			(uuid "3e50eedd-f02e-402f-9d62-5965d9ec4aa0")
 		)
 		(pin "3_12"
-			(uuid "43a494bb-5c7d-4bc4-81fb-a4c6a4e49535")
+			(uuid "43a494bb-5c7d-4bc4-81fb-a4c6a4e49536")
 		)
 		(pin "3_15"
-			(uuid "5abb836f-2849-4f76-9d51-b14153b83610")
+			(uuid "5abb836f-2849-4f76-9d51-b14153b83611")
 		)
 		(pin "4_4"
-			(uuid "b5259c11-361c-4512-88d2-4704d8140592")
+			(uuid "b5259c11-361c-4512-88d2-4704d8140593")
 		)
 		(pin "4_12"
-			(uuid "ee59956b-c8eb-4c85-8bca-4788a49f8765")
+			(uuid "ee59956b-c8eb-4c85-8bca-4788a49f8766")
 		)
 		(pin "3_11"
-			(uuid "9e2fd75b-88c4-4e0d-a96c-91bdce283531")
+			(uuid "9e2fd75b-88c4-4e0d-a96c-91bdce283532")
 		)
 		(pin "4_2"
-			(uuid "5f2d2be3-c755-4fbc-ad88-b9b128785bfe")
+			(uuid "5f2d2be3-c755-4fbc-ad88-b9b128785bff")
 		)
 		(pin "4_6"
-			(uuid "b403c259-5ee8-477f-9ef4-12a90ce5b3bd")
+			(uuid "b403c259-5ee8-477f-9ef4-12a90ce5b3be")
 		)
 		(pin "4_7"
-			(uuid "177ee863-52b6-4f75-a207-bbfcc549639d")
+			(uuid "177ee863-52b6-4f75-a207-bbfcc549639e")
 		)
 		(pin "3_4"
-			(uuid "48f2a6fb-9869-4f61-8793-3d8dc39d3518")
+			(uuid "48f2a6fb-9869-4f61-8793-3d8dc39d3519")
 		)
 		(pin "3_10"
-			(uuid "922f468f-567a-4215-9697-a23b746bef4b")
+			(uuid "922f468f-567a-4215-9697-a23b746bef4c")
 		)
 		(pin "3_13"
-			(uuid "aeb02a7f-be89-47c5-bff8-6d87ade7854a")
+			(uuid "aeb02a7f-be89-47c5-bff8-6d87ade7854b")
 		)
 		(pin "3_2"
-			(uuid "5554ad06-5ef7-44d0-85b5-9be617e763fb")
+			(uuid "5554ad06-5ef7-44d0-85b5-9be617e763fc")
 		)
 		(pin "4_14"
-			(uuid "826ff558-f05b-4295-9a16-41bf11955457")
+			(uuid "826ff558-f05b-4295-9a16-41bf11955458")
 		)
 		(pin "3_14"
-			(uuid "8ae44a5e-924c-4a49-af46-f67bde7b791b")
+			(uuid "8ae44a5e-924c-4a49-af46-f67bde7b791c")
 		)
 		(pin "3_6"
-			(uuid "95d78a7b-1c5a-436d-b345-1696d81bda0c")
+			(uuid "95d78a7b-1c5a-436d-b345-1696d81bda0d")
 		)
 		(pin "3_9"
-			(uuid "941857a9-d59d-4b4b-a09b-1a485f1d682a")
+			(uuid "941857a9-d59d-4b4b-a09b-1a485f1d682b")
 		)
 		(instances
 			(project ""
