@@ -952,7 +952,6 @@
 	(hierarchical_label "CURRENT"
 		(shape input)
 		(at 153.67 102.87 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -964,7 +963,6 @@
 	(hierarchical_label "PWM"
 		(shape input)
 		(at 85.09 85.09 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -976,7 +974,6 @@
 	(hierarchical_label "24V_POW_P"
 		(shape input)
 		(at 107.95 66.04 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -988,7 +985,6 @@
 	(hierarchical_label "DIR"
 		(shape input)
 		(at 85.09 92.71 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1000,7 +996,6 @@
 	(hierarchical_label "Therm"
 		(shape input)
 		(at 134.62 105.41 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1012,7 +1007,6 @@
 	(hierarchical_label "BRAKE"
 		(shape input)
 		(at 85.09 100.33 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1068,6 +1062,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 147.32 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C2907113"
 			(at 147.32 106.68 0)
 			(effects
 				(font
@@ -1143,6 +1146,15 @@
 			)
 		)
 		(property "Description" "3A, 55V H-Bridge, Motion Control Applications, TO-220-11"
+			(at 110.49 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C117011"
 			(at 110.49 92.71 0)
 			(effects
 				(font
@@ -1250,6 +1262,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC#" ""
+			(at 144.78 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "fb8480d2-a0c7-4394-b782-dccde07e019b")
 		)
@@ -1324,6 +1345,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC#" "C57112"
+			(at 132.08 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2bb1bcc5-0bb6-444a-8ecd-c09e88d34244")
 		)
@@ -1390,6 +1420,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 132.08 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC#" "C57112"
 			(at 132.08 93.98 0)
 			(effects
 				(font
